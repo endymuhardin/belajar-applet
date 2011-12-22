@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" href="demo.jnlp">
+    <information>
+        <title>Open File Demo</title>
+        <vendor>ArtiVisi Intermedia</vendor>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+              href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="belajar-applet-0.0.0-SNAPSHOT.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Open File Demo Applet"
+         main-class="belajar.applet.OpenFileApplet"
+         width="800"
+         height="500">
+     </applet-desc>
+     <update check="background"/>
+     <security>
+        <all-permissions/>
+     </security>
+     
+</jnlp>  
